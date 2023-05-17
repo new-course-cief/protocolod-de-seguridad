@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Protocolos de seguridad</title>
+</head>
+<body>
+    <main>
+        <h2> Protocolos de Seguridad </h2>
+        <p>
+            Los protocolos de seguridad en el contexto de las tecnologías de la información se refieren a las normas y procedimientos establecidos para garantizar la seguridad de la comunicación y proteger los datos transmitidos entre sistemas o redes. Estos protocolos establecen reglas y estándares que permiten implementar mecanismos de autenticación, cifrado, integridad y control de acceso.
+            En esencia, los protocolos de seguridad son conjuntos de reglas y especificaciones que rigen el intercambio seguro de información. Estos protocolos definen cómo se establece la comunicación segura entre las partes, cómo se autentican y validan mutuamente, cómo se cifran los datos para proteger su confidencialidad y cómo se verifica la integridad de los mensajes transmitidos.
+        </p>
+        <h3>Los protocolos de seguridas más utilizados</h3>
+        <h4>
+            HTTPS(HTTP suguro)
+        </h4>
+        <div class="image-container"><img src="imagenes/https.jpg" alt="imagen de HTTPS"></div>
+        <p>
+            HTTPS (Hypertext Transfer Protocol Secure) es una implementación segura del protocolo HTTP utilizado en la comunicación web. HTTPS utiliza el protocolo TLS/SSL (Transport Layer Security/Secure Sockets Layer) para cifrar y proteger la información transmitida entre un cliente (como un navegador web) y un servidor web.
+            Cuando un sitio web utiliza HTTPS en lugar de HTTP, la comunicación entre el cliente y el servidor está encriptada, lo que brinda una capa adicional de seguridad. Esto ayuda a proteger la confidencialidad de la información, como datos de inicio de sesión, información personal, transacciones financieras y cualquier otro dato sensible transmitido a través del sitio web.
+            Al utilizar HTTPS, se establece una conexión segura entre el cliente y el servidor mediante un proceso de negociación de claves y certificados. Esta conexión segura garantiza que los datos transmitidos no sean interceptados ni modificados por terceros no autorizados.
+            Además de la encriptación de datos, HTTPS también proporciona autenticación del servidor, lo que permite al cliente verificar la identidad del servidor web y asegurarse de que se está comunicando con el sitio web correcto. Esto se logra a través de certificados digitales emitidos por autoridades de certificación confiables.
+            Ejemplos de programas que utilizan HTTPS: Navegadores web, servidores web, plataformas de correo electrónico, servicios de banca en línea y comercio electrónico, redes sociales.
+        </p>
+
+        <h3>
+            SSH
+        </h3>
+        <div class="image-container"><img src="imagenes/ssh.jpg" alt="imagen de SSH"></div>
+        <p>
+            SSH (Secure Shell) es un protocolo de red utilizado para acceder y gestionar de forma segura sistemas remotos. Proporciona una forma segura de establecer conexiones y realizar diversas operaciones en un entorno de red.
+            A través del protocolo SSH, un cliente puede conectarse de forma segura a un servidor remoto y realizar acciones como ejecutar comandos, transferir archivos, administrar configuraciones y realizar tareas de administración del sistema. SSH utiliza técnicas de cifrado y autenticación para garantizar la seguridad de la comunicación entre el cliente y el servidor.
+            Ejemplos de programas que utilizan SSH: Cliente SSH, administración remota de servidores, transferencia de archivos segura- SFTP (SSH File Transfer Protocol) y SCP (Secure Copy), control de versiones. 
+        </p>
+
+        <h3>
+            IPsec
+        </h3>
+        <div class="image-container"><img src="imagenes/IPSEC.webp" alt="imagen de IPsec"></div>
+        <p>
+            IPsec (Internet Protocol Security) es un conjunto de protocolos utilizado para asegurar la comunicación de paquetes IP en la capa de red. Proporciona un marco para implementar servicios de seguridad como autenticación, cifrado e integridad para el tráfico de red basado en IP.
+            IPsec opera en la capa de Protocolo de Internet (IP) y se puede utilizar para asegurar diversos tipos de comunicación en redes, incluyendo conexiones VPN (Redes Privadas Virtuales) de sitio a sitio y conexiones VPN de acceso remoto. Puede implementarse en enrutadores, firewalls y otros dispositivos de red para garantizar una comunicación segura y privada entre redes o usuarios remotos.
+            Ejemplos de programas que utilizan IPsec: VPN clients, firewall and routers, sistemas operativos, dispositivos de red. 
+        </p>
+        
+        <h3>
+            SFTP
+        </h3>
+        <div class="image-container"><img src="imagenes/SFTP.avif" alt="imagen de SFTP"></div>
+        <p>
+            SFTP (Secure File Transfer Protocol) es un protocolo seguro de transferencia de archivos que se utiliza para transferir archivos de forma segura sobre una red. SFTP se basa en SSH (Secure Shell) y proporciona una capa adicional de seguridad en comparación con el FTP estándar, ya que todas las transferencias de archivos se cifran y autentican.
+            Ejemplos de programas que utilizan SFTP: OpenSSH, fireZilla, cyberduck.
+        </p>
+
+        <h3>
+            SSL
+        </h3>
+        <div class="image-container"><img src="imagenes/ssll.png" alt="imagen de SSL"></div>
+        <p>
+            SSL (Secure Sockets Layer) es un protocolo de seguridad que se utiliza para establecer conexiones seguras entre un cliente y un servidor en Internet. Fue desarrollado para garantizar la confidencialidad, integridad y autenticidad de los datos transmitidos.
+
+            SSL utiliza cifrado para proteger la información confidencial que se envía a través de Internet. Esto significa que los datos transmitidos están encriptados y no pueden ser leídos por terceros no autorizados. Además, SSL utiliza certificados digitales para autenticar la identidad del servidor, lo que asegura que los usuarios se están comunicando con el sitio web correcto y no con un impostor.
+            
+            El protocolo SSL ha sido reemplazado por su sucesor, TLS (Transport Layer Security), que proporciona mejoras en seguridad y rendimiento. Sin embargo, el término "SSL" todavía se utiliza de manera general para referirse a ambos protocolos.
+            
+            Es importante destacar que SSL es una tecnología crucial para la seguridad en Internet y se utiliza en una amplia gama de aplicaciones, incluyendo transacciones en línea, acceso a sitios web seguros (HTTPS), correo electrónico seguro (SMTPS/IMAPS/POP3S), entre otros.
+            Ejemplos de programas que utilizan SSL: Navegadores web, clientes de correo electrónico, servidores web, servidores de correo electrónico.
+        </p>
+
+        <h3>
+            TLS
+        </h3>
+        <div class="image-container"><img src="imagenes/TLS.png" alt="imagen de TLS"></div>
+        <p>
+            TLS (Transport Layer Security) es un protocolo de seguridad de Internet diseñado para asegurar las comunicaciones entre aplicaciones a través de una red. TLS proporciona confidencialidad, integridad y autenticación de los datos transmitidos, al igual que su predecesor, SSL (Secure Sockets Layer).
+
+            TLS establece una conexión segura entre un cliente y un servidor mediante el uso de técnicas criptográficas. Esta conexión segura se establece antes de que los datos se transmitan, lo que garantiza que la información transmitida esté protegida contra el acceso no autorizado y la manipulación.
+            
+            El protocolo TLS opera en la capa de transporte del modelo OSI y se utiliza ampliamente para asegurar diversas aplicaciones en línea, como navegadores web, correo electrónico, servicios de mensajería instantánea, transferencia de archivos, servicios bancarios en línea y más.
+            
+            TLS utiliza algoritmos criptográficos para cifrar los datos transmitidos, asegurando que solo el cliente y el servidor puedan acceder a la información. Además, utiliza certificados digitales para autenticar la identidad del servidor y, en algunos casos, del cliente.
+            
+            Es importante destacar que TLS ha reemplazado a SSL debido a mejoras en seguridad y eficiencia. Sin embargo, el término "SSL" a menudo se utiliza de manera general para referirse a ambos protocolos.
+            Ejemplos de programas que utilizan TSL: Navegadores web, clientes de correo electrónico, servicios de banca en línea y comercio electrónico como PAYPAL.
+        </p>
+
+        <h3>
+            Diferencias entre SSL y TLS
+        </h3>
+        <ul>
+            <li>
+                Desarrollo: SSL fue desarrollado por Netscape Communications en la década de 1990, mientras que TLS es su sucesor, diseñado por el Internet Engineering Task Force (IETF) como una versión actualizada y más segura de SSL.
+            </li>
+            <li>
+                Seguridad: TLS generalmente se considera más seguro que SSL. Ha abordado algunas vulnerabilidades y debilidades encontradas en SSL, ofreciendo algoritmos de cifrado más sólidos y mejores características de seguridad.
+            </li>
+            <li>
+                Uso: TLS se utiliza ampliamente en la actualidad y ha reemplazado en gran medida a SSL en la mayoría de las aplicaciones. Los sitios web y los servicios web suelen utilizar TLS para asegurar la comunicación a través de HTTPS. Sin embargo, el término "SSL" todavía se utiliza coloquialmente para referirse tanto a SSL como a TLS.
+            </li>
+            <li>
+                Negociación de protocolo: Al establecer una conexión segura, TLS utiliza un protocolo de negociación para acordar la versión específica y los algoritmos de cifrado que se utilizarán. SSL también realiza una negociación similar, pero con menos opciones de negociación.
+            </li>
+            <li>
+                Renegociación: TLS tiene capacidades de renegociación mejoradas en comparación con SSL. La renegociación en SSL puede ser vulnerable a ciertos tipos de ataques, mientras que TLS ha sido diseñado para abordar estos problemas de seguridad.
+            </li>
+            <li>
+                Métodos de intercambio de claves: TLS introdujo nuevos métodos de intercambio de claves, como Diffie-Hellman (DHE) y Elliptic Curve Diffie-Hellman (ECDHE), que ofrecen secreto hacia adelante (forward secrecy). SSL se basa principalmente en el intercambio estático de claves RSA, que no ofrece secreto hacia adelante.
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
