@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Modelo RBAC </title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><p>Seguridad</p></a>
+        <a href="rbac.html"><p>RBAC</p></a>
+        <a href="cifrado.html"><p>Cifrado</p></a>
+    </nav>
+    <main>
+        <h2>Tipos de encryptacion</h2>
+        <H4>WEP Y WPA</H4>
+        <p><span>WEP (Wired Equivalent Privacy): </span> WEP es un protocolo de seguridad utilizado en redes inalámbricas Wi-Fi más antiguas. Fue el primer protocolo implementado para cifrar la comunicación inalámbrica y proporcionar cierta privacidad en redes Wi-Fi. Sin embargo, con el tiempo se descubrieron graves vulnerabilidades en WEP que hicieron que fuera fácilmente comprometido. Actualmente, se considera inseguro y se recomienda encarecidamente no utilizarlo.</p>
+        <p><span> WPA (Wi-Fi Protected Access): </span>WPA es un protocolo de seguridad más robusto y seguro que fue desarrollado para reemplazar a WEP y mejorar la seguridad en las redes inalámbricas. Hay diferentes versiones de WPA:</p>
+        <ol>
+            <li>
+                WPA: Introducido en 2003, WPA solucionó las vulnerabilidades de WEP y agregó mejoras de seguridad. Utilizaba el protocolo de cifrado TKIP (Temporal Key Integrity Protocol) y proporcionaba autenticación más fuerte.
+            </li>
+            <li>
+                WPA2: Lanzado en 2004, WPA2 es la versión actualmente recomendada y ampliamente utilizada. Utiliza el cifrado AES (Advanced Encryption Standard) para proporcionar una mayor seguridad en comparación con WPA. WPA2 ofrece una autenticación sólida y cifrado robusto para proteger las redes inalámbricas.
+            </li>
+            <li>
+                WPA3: Presentado en 2018, WPA3 es la última versión del protocolo de seguridad Wi-Fi. Ofrece mejoras adicionales en comparación con WPA2, como un cifrado más fuerte y autenticación más segura. WPA3 también proporciona protección contra ataques de fuerza bruta y mejora la seguridad en redes abiertas y públicas.
+            </li>
+        </ol>
+        <h4>MD5: generalista</h4>
+        <p>
+            MD5 (Message Digest Algorithm 5) es un algoritmo de resumen criptográfico generalista. Fue desarrollado por Ronald Rivest en 1991 y se utiliza para calcular un hash o resumen de un mensaje o archivo.
+            MD5 toma una entrada de cualquier longitud y produce una salida de 128 bits, que se representa típicamente como una cadena hexadecimal de 32 caracteres. El objetivo principal de MD5 es verificar la integridad de los datos, es decir, asegurarse de que los datos no hayan sido alterados durante la transmisión o almacenamiento.
+            Sin embargo, MD5 tiene algunas debilidades conocidas en términos de seguridad. Se ha demostrado que es vulnerable a colisiones, lo que significa que es posible encontrar dos mensajes diferentes que producen el mismo valor de hash. Debido a estas debilidades, MD5 ya no se considera seguro para aplicaciones criptográficas donde la integridad de los datos es crítica.
+        </p>
+    </main>
+</body>
+</html>

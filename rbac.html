@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Modelo RBAC </title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><p>Seguridad</p></a>
+        <a href="rbac.html"><p>RBAC</p></a>
+        <a href="cifrado.html"><p>Cifrado</p></a>
+    </nav>
+    <main>
+        <h2> Control de acceso Modelo RBAC </h2>
+        <p>
+            El control de acceso es un conjunto de técnicas y prácticas utilizadas para regular y gestionar el acceso a recursos, sistemas o información en una organización. El objetivo principal del control de acceso es proteger los activos y garantizar que solo las personas autorizadas puedan acceder a ellos.
+            Existen varios enfoques y modelos para implementar el control de acceso, alguno de los cuales incluye RBAC
+        </p>
+        <p>
+            RBAC, que significa Control de Acceso Basado en Roles (Role-Based Access Control, en inglés), es un modelo de control de acceso ampliamente utilizado en sistemas de información. En el modelo RBAC, el acceso a recursos y funcionalidades se gestiona en función de los roles asignados a los usuarios.
+            En el modelo RBAC, se definen tres componentes principales: roles, usuarios y permisos.
+        </p>
+        <ul>
+            <li>
+                Roles: Los roles representan las funciones o posiciones dentro de una organización o sistema. Por ejemplo, en un sistema de gestión de empleados, podrían existir roles como "administrador", "gerente" y "empleado". Cada rol tiene un conjunto de permisos asociados que definen las acciones que los usuarios asignados a ese rol pueden realizar.
+            </li>
+            <li>
+                Usuarios: Los usuarios son las entidades individuales que interactúan con el sistema. Cada usuario se asigna a uno o más roles. Al asignar un usuario a un rol específico, el usuario hereda los permisos asociados a ese rol. Esto significa que los usuarios tendrán los mismos permisos que se han definido para el rol al que están asignados.
+            </li>
+            <li>
+                Permisos: Los permisos representan las acciones o funcionalidades específicas que un usuario puede llevar a cabo en el sistema. Estos permisos están asociados a roles, no a usuarios individuales. Al asignar permisos a un rol, se establece qué acciones pueden realizar los usuarios que tengan ese rol.
+            </li>
+        </ul>
+        <div class="image-container"><img src="imagenes/image-19.png" alt="imagen de RBAC"></div>
+        <p>
+            En el modelo RBAC, la administración de los permisos se simplifica mediante la asignación de roles a los usuarios. En lugar de otorgar y revocar permisos individuales a cada usuario, los administradores pueden simplemente asignar o cambiar los roles de los usuarios para ajustar sus niveles de acceso.
+            Además de los roles, los usuarios y los permisos, el modelo RBAC también puede incluir conceptos adicionales, como la jerarquía de roles, que permite establecer relaciones de herencia entre los roles. Por ejemplo, un rol "gerente" puede heredar los permisos de un rol "empleado" y agregar permisos adicionales.
+        </p>
+        <p>
+           Ejemplos de programas y sistemas que implementan RBAC.
+        </p>
+        <ul>
+            <li>Sistemas operativos</li>
+            <li>Sistemas de gestión de bases de datos (DBMS)</li>
+            <li>Aplicaciones empresariales</li>
+            <li>Sistemas de gestión de contenido (CMS)</li>
+            <li>Plataformas de comercio electrónico</li>
+        </ul>
+        <h2>Esteganografia</h2>
+        <p>
+            La esteganografía es el estudio y la práctica de ocultar información o datos dentro de otro tipo de datos, como imágenes, archivos de audio, videos o texto, de manera que el contenido oculto pase desapercibido para un observador casual.
+            A diferencia de la criptografía, que se ocupa de proteger los datos mediante la encriptación, la esteganografía se enfoca en ocultar la existencia misma de los datos dentro de un medio aparentemente inocente. El objetivo principal de la esteganografía es asegurar la comunicación encubierta y la confidencialidad de los datos al evitar levantar sospechas.
+            Existen diferentes técnicas y métodos para realizar esteganografía. Algunos ejemplos comunes incluyen:
+        </p>
+        <ul>
+            <li>
+                <span> Esteganografía en imágenes: </span>Se oculta información en los píxeles de una imagen. Esto puede lograrse modificando ligeramente los valores de color de los píxeles o mediante la manipulación de las frecuencias en una transformada de Fourier de la imagen.               
+            </li>
+            <div class="image-container"><img src="imagenes/imgst.webp" alt="imagen de RBAC"></div>
+            <p><i>Con este tipo de ocultación de datos, incluso si toma una diferencia de las dos imágenes, lo que obtiene parece una imagen llena de ruido JPEG aleatorio, pero podría ser para fotógrafos que desean marcar su trabajo en secreto.</i></p>
+            <li>
+                <span> Esteganografía en archivos de audio: </span> Se oculta información en las señales de audio. Se pueden utilizar técnicas como la modificación de las amplitudes de las ondas de sonido o la inserción de datos en frecuencias inaudibles.
+            </li>
+            <li>
+                <span>Esteganografía en texto: </span> Se oculta información dentro de un texto escrito, utilizando técnicas como la manipulación de espacios, caracteres especiales o palabras clave para codificar los datos.               
+            </li>
+            <div class="image-container"><img src="imagenes/st1.jpg" alt="imagen de RBAC"></div>
+        </ul>
+
+        <h2>criptografía</h2>
+        <p>
+            La criptografía es el estudio y la práctica de técnicas para asegurar la comunicación y proteger la información mediante el uso de algoritmos matemáticos. Su objetivo principal es garantizar la confidencialidad, integridad, autenticidad y no repudio de los datos transmitidos.
+            Existen dos categorías principales de criptografía. Ejemplos: certificado digital
+        </p>
+        <ul>
+            <li>
+                <span> Criptografía simétrica (o de clave secreta): </span>En este enfoque, se utiliza la misma clave para cifrar y descifrar los datos. El emisor y el receptor deben compartir previamente esta clave secreta. Los algoritmos de cifrado simétrico más comunes incluyen DES (Data Encryption Standard), AES (Advanced Encryption Standard) y 3DES (Triple Data Encryption Standard).             
+            </li>
+            <div class="image-container"><img src="imagenes/sym.jpg" alt="imagen de RBAC"></div>
+    
+            <li>
+                <span> Criptografía asimétrica (o de clave pública): </span>Este enfoque utiliza un par de claves, una clave pública y una clave privada. La clave pública se comparte libremente, mientras que la clave privada se mantiene en secreto. Los datos cifrados con la clave pública solo pueden descifrarse con la clave privada correspondiente, y viceversa. La criptografía asimétrica se utiliza comúnmente para el intercambio seguro de claves y la firma digital. Los algoritmos asimétricos populares incluyen RSA (Rivest-Shamir-Adleman), DSA (Digital Signature Algorithm) y ECC (Elliptic Curve Cryptography).
+            </li>
+            <div class="image-container"><img src="imagenes/asym.jpg" alt="imagen de RBAC"></div>
+        </ul>
+        <p>
+            Además de estos enfoques, se utilizan técnicas criptográficas adicionales, como funciones hash criptográficas, que generan un resumen único para un conjunto de datos y se utilizan para verificar la integridad de los mismos.
+            La criptografía es esencial en el ámbito de la seguridad de la información y se utiliza en diversas aplicaciones, como la protección de datos confidenciales en redes, la autenticación de usuarios, las transacciones financieras en línea y la seguridad en dispositivos móviles. Sin embargo, es importante seguir las mejores prácticas y estándares de criptografía establecidos para garantizar una implementación segura y confiable.
+        </p>
+    </main>
+</body>
+</html>
